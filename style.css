@@ -47,6 +47,10 @@ body {
 
 .navbar-right a:hover {
   color: #c4e2b7;
+  font-size:larger
+}
+.navbar-right a:visited {
+    color: #65a387;
 }
 
 
