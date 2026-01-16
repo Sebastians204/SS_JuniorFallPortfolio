@@ -8,8 +8,8 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #9c97a7;
-  color: #cce2e4;
+  background-color: #9599a9;
+  color: #cce4de;
   background-image: url("starry_sun.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #4f4c5f;
+  background-color: #4d5763;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -40,17 +40,17 @@ body {
 }
 
 .navbar-right a {
-  color: rgb(161, 189, 225);
+  color: rgb(161, 203, 225);
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar-right a:hover {
-  color: #c4e2b7;
+  color: #cae2b7;
   font-size:larger
 }
 .navbar-right a:visited {
-    color: #65a387;
+    color: #65a375;
 }
 
 
@@ -67,13 +67,20 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(40, 45, 65, 0.95);
+  background-color: rgba(40, 51, 65, 0.95);
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(47, 51, 83, 0.08);
+  box-shadow: 0 0 12px rgba(47, 61, 83, 0.08);
 }
 
+.CFU{
+  background-color: rgba(40, 63, 95, 0.95);
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(47, 64, 83, 0.08);
+}
 /* =========================
    BIO SECTION
 ========================= */
@@ -88,7 +95,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #3d3256;
+  border: 3px solid #343256;
   object-fit: cover;
 }
 
@@ -99,7 +106,7 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #9c97a7;
+  color: #9797a7;
 }
 
 /* =========================
@@ -129,7 +136,7 @@ body {
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #aacbff;
 }
 
 .reflection p {
@@ -159,7 +166,7 @@ body {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  border: 2px solid rgb(131, 138, 193);
+  border: 2px solid rgb(131, 147, 193);
   object-fit: cover;
 }
 
@@ -169,7 +176,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #5062db;
+  color: #5070db;
 }
 
 /* =========================
